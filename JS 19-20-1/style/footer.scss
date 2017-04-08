@@ -1,0 +1,142 @@
+
+footer{
+  width: 100vw;
+  height: 390px;
+  background-color: rgb(42, 45, 50);
+  margin-top: -418px;
+  margin-left: -10px;
+}
+
+.footer_left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 61px;
+  left: 59px;
+}
+
+.footer_left h4{
+  color: white;
+  font-size: 15px;
+  font-family: 'Arial';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer_left a{
+  text-decoration: none;
+  font-size: 14px;
+  color: grey;
+  margin-bottom: -6px;
+  margin-top: 26px;
+  margin-left: 5px;
+  padding-bottom: 2px;
+}
+
+.footer_left a:hover{
+  color: blue;
+}
+
+.footer_center1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: -118px;
+  left: 362px;
+}
+
+.footer_center1 h4{
+  color: white;
+  font-size: 15px;
+  font-family: 'Arial';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer_center1 a{
+  text-decoration: none;
+  font-size: 14px;
+  color: grey;
+  margin-bottom: -6px;
+  margin-top: 26px;
+  margin-left: 2px;
+  padding-bottom: 2px;
+}
+
+.footer_center1 a:hover{
+  color: blue;
+}
+
+.footer_center2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: -297px;
+  left: 660px;
+}
+
+.footer_center2 h4{
+  color: white;
+  font-size: 15px;
+  font-family: 'Arial';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer_center2 a{
+  text-decoration: none;
+  font-size: 14px;
+  color: grey;
+  margin-bottom: -6px;
+  margin-top: 26px;
+  margin-left: 2px;
+  padding-bottom: 2px;
+}
+
+.footer_center2 a:hover{
+  color: blue;
+}
+
+.footer_right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: -476px;
+  left: 964px;
+}
+
+.footer_right h4{
+  color: white;
+  font-size: 15px;
+  font-family: 'Arial';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer_right a{
+  text-decoration: none;
+  font-size: 14px;
+  color: grey;
+  margin-bottom: -6px;
+  margin-top: 26px;
+  margin-left: -3px;
+  padding-bottom: 2px;
+}
+
+.footer_right a:hover{
+  color: blue;
+}
+
+.bottom_strip{
+ position: absolute;
+ top: 2681px;
+ left: -310px;
+}

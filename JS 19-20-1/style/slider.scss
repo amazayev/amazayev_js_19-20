@@ -1,0 +1,51 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; }
+:focus { outline:0; }
+a:active { outline:none; }
+body { line-height:1; color:black; background:white; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+
+  #slides {
+  	margin-top: 40px;
+    margin-left: 51px;
+  }
+
+  .slides_container {
+  	width:1162px;
+  	height:473px;
+  	overflow:hidden;
+  	position:relative;
+  }
+
+  .pagination {
+  	margin:19px auto 0;
+  	width:100px;
+  	position: absolute;
+  	top: 685px;
+  	left: 598px;
+  	z-index: 100;
+  }
+
+  .pagination li {
+  	float:left;
+  	margin:0 7px;
+  }
+
+  .pagination li a {
+  	display:block;
+  	width:16px;
+  	height: 0;
+  	padding-top: 17px;
+  	background-image:url(../img/pagination.png);
+  	background-position:0 3px;
+  	float:left;
+  	overflow:hidden;
+  }
+
+  .pagination li.current a {
+  	background-position:0 -12px;
+  }
